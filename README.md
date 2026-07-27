@@ -15,13 +15,33 @@ Identidade visual **Deco Chaos**: preto `#1D1D1B`, vermelho `#E42230`, cinza `#6
 ## 🚀 Como colocar no ar (GitHub Pages)
 
 1. Crie um repositório no GitHub (ex.: `estoque-3d`).
-2. Envie o arquivo `index.html` (e este `README.md`) para o repositório.
+2. Envie **todos os arquivos desta pasta** (não só o `index.html` — os ícones e o manifest são o que fazem virar app no celular).
 3. No GitHub, vá em **Settings → Pages**.
-4. Em **Source**, escolha a branch `main` e a pasta `/root`. Salve.
+4. Em **Source**, escolha a branch `main` e a pasta `/ (root)`. Salve.
 5. Aguarde ~1 minuto. O endereço aparece no topo da página (ex.: `https://SEU-USUARIO.github.io/estoque-3d/`).
-6. Abra esse link no celular e **adicione à tela inicial** para usar como um app.
 
-> Enviar pelo site do GitHub: no repositório → **Add file → Upload files** → arraste o `index.html` → **Commit**.
+> Enviar pelo site do GitHub: no repositório → **Add file → Upload files** → arraste os arquivos → **Commit**.
+
+### Arquivos do repositório
+
+| Arquivo | Função |
+|---|---|
+| `index.html` | O app inteiro (HTML, CSS, JS e a logo vetorial) |
+| `manifest.webmanifest` | Faz o navegador reconhecer como aplicativo instalável |
+| `icon-180.png` | Ícone do iPhone/iPad |
+| `icon-192.png` · `icon-512.png` · `icon-512-maskable.png` | Ícones do Android |
+| `README.md` · `.gitignore` | Documentação e ignorados do Git |
+
+---
+
+## 📲 Instalar como app no celular
+
+**iPhone / iPad (Safari)** — abra o link → botão Compartilhar → **Adicionar à Tela de Início** → Adicionar.
+Precisa ser pelo **Safari**; Chrome e Instagram não instalam.
+
+**Android (Chrome)** — abra o link → menu ⋮ → **Instalar aplicativo** (ou "Adicionar à tela inicial").
+
+Depois disso ele abre em tela cheia, com o ícone da chama e sem a barra do navegador — igual a um app instalado.
 
 ---
 
