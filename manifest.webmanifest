@@ -1,0 +1,17 @@
+{
+  "name": "Precificador Chaos — Chaos Decos Labs",
+  "short_name": "Precificador",
+  "description": "Do print do Bambu Studio ao preço por canal e kit, com comissão da Maria Luiza e card de orçamento.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F0E4D0",
+  "theme_color": "#1B396B",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
